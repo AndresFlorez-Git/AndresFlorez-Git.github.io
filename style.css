@@ -1,0 +1,152 @@
+
+body {
+    background-color:  #F3F5FC;
+    
+}
+
+#logo {
+    position: relative;
+    top: 40px;
+    left: 84px;
+    
+}
+
+#text-in {
+    position:absolute;
+    left: 240px;
+    top: 168px;
+    width: 660px;
+    height: 700px;
+    background-color: #F3F5FC;
+    border: none;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    resize: none;
+
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+}
+
+.input-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+
+    
+    position: relative;
+    top:825px;
+    left: 224px;
+}
+
+#button-encrypt{
+   /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    color: white;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#desbutton-encrypt{
+    box-sizing: border-box;
+    
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.container_blanco {
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    right: 40px;
+    border-radius: 32px;
+}
+
+#text-out {
+
+    margin: 32px 32px 0 32px;
+    width: 336px;
+    height: 750px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    resize: none;
+    border: none;
+}
+
+#texto-salida {
+    position: relative;
+    top: -60%;
+    margin: auto;
+    text-align: center;
+}
+#texto-salida img{
+    width: 336px;
+    margin: 0 0 32px 32px;
+}
+
+#texto-salida p strong {
+    width: 336px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+
+#button-copy {
+    display: none;
+    position: relative;
+    left:36px;
+    top: -15%;
+    width: 328px;
+    height: 67px;
+    background-color: white;
+    border-color:#0A3871;
+    color: #0A3871;
+    border-radius: 24px;
+    margin: 200px 0 auto;
+}
